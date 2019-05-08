@@ -58,6 +58,13 @@ Artwork:
 + `cd /home/pi/RetroPie/roms/[system]` - replace `[system]` with game system folder name
 + `/opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 -image_dir=media -image_path=media -use_nointro_name=false`
 
+8bitdo USB Adapter + SF30 Pro
+-----------------------------
++ Press Pair on Adapter
++ Press B + Start on Controller
++ Press Pair for 2 seconds on Controller
++ After paired, press Select + Left for 2 seconds (controller will reconnect)... you will have to do this step after each power cycle on the pi. Does anyone know a better way?
+
 JoyStick Test:
 --------------
 + `jstest /dev/input/js0`
