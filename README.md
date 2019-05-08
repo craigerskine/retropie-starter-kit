@@ -12,7 +12,7 @@ SuperPi Case Power Button
 Theme:
 -------
 + Download [art-book](https://github.com/anthonycaccese/es-theme-art-book) and upload to `//configs/all/emulationstation/themes/`
-+ If you want the __TurboDuo__ and __SuperGrafx__ system logos, upload `configs/all/emulationstation/themes/art-book/tg-cd/_inc/system.svg` and `configs/all/emulationstation/themes/art-book/supergrafx/_inc/system.svg`
++ If you want better __TurboDuo__ and __SuperGrafx__ system logos, upload `configs/all/emulationstation/themes/art-book/tg-cd/_inc/system.svg` and `configs/all/emulationstation/themes/art-book/supergrafx/_inc/system.svg`
 
 __Alternate Game List View__
 + Edit `art-book/theme.xml`, search for "gamelist", and make the following changes:
@@ -36,6 +36,10 @@ Games over Network Share:
 
 __If you can't save (states/battery/etc.) to share:__
 - `sudo chown -R pi /home/pi/RetroPie/roms`
+
+SuperGrafx Support
+------------------
++ Upload `configs/supergrafx`
 
 Systems List
 ------------
