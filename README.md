@@ -5,14 +5,14 @@ This kit would only be useful for my own personal setup. I keep my roms on a USB
 
 Some of these "steps" are just references in case I need to re-download artwork, get button ids for a new controller, etc.
 
-SuperPi Case Power Button
--------------------------
+SuperPi Case Power Button:
+--------------------------
 + [Script](https://github.com/RetroFlag/retroflag-picase)
 
 Theme:
 -------
 + Download [art-book](https://github.com/anthonycaccese/es-theme-art-book) and upload to `//configs/all/emulationstation/themes/`
-+ If you want better __TurboDuo__ and __SuperGrafx__ system logos, upload `configs/all/emulationstation/themes/art-book/tg-cd/_inc/system.svg` and `configs/all/emulationstation/themes/art-book/supergrafx/_inc/system.svg`
++ If you want __TurboDuo__ and a better __SuperGrafx__ system logos, upload `configs/all/emulationstation/themes/art-book/tg-cd/_inc/system.svg` and `configs/all/emulationstation/themes/art-book/supergrafx/_inc/system.svg`
 
 __Alternate Game List View__
 + Edit `art-book/theme.xml`, search for "gamelist", and make the following changes:
@@ -21,8 +21,8 @@ __Alternate Game List View__
       <!-- <alignment>center</alignment> -->
       <horizontalMargin>.005</horizontalMargin>
 
-Games over USB Drive or Stick:
-------------------------------
+Games over USB:
+---------------
 1. Turn __OFF__ USB rom service __before__ inserting USB drive containing roms:  
 `RetroPie Setup > Configuration / tools > usbromservice`
 2. Upload `configs/all/autostart.sh` (all rom folders should be in a `games` folder at the root of the drive)
@@ -37,16 +37,16 @@ Games over Network Share:
 __If you can't save (states/battery/etc.) to share:__
 - `sudo chown -R pi /home/pi/RetroPie/roms`
 
-SuperGrafx Support
-------------------
+SuperGrafx Support:
+-------------------
 + Upload `configs/supergrafx`
 
-Systems List
-------------
+Systems List:
+-------------
 + Upload `configs/all/emulationstation/es_systems.cfg`
 
-Sega CD CHD Support
--------------------
+Sega CD CHD Support:
+--------------------
 + Change the default emulator, upload `configs/segacd/emulators.cfg`
 
 Video Modes:
@@ -58,8 +58,8 @@ Artwork:
 + `cd /home/pi/RetroPie/roms/[system]` - replace `[system]` with game system folder name
 + `/opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 -image_dir=media -image_path=media -use_nointro_name=false`
 
-8bitdo USB Adapter + SF30 Pro
------------------------------
+8bitdo USB Adapter + SF30 Pro:
+------------------------------
 + Press Pair on Adapter
 + Press B + Start on Controller
 + Press Pair for 2 seconds on Controller
@@ -73,8 +73,8 @@ After Update:
 -------------
 + `RetroPie Setup > Configuration / tools > autostart > Boot to EmulationStation`
 
-Rotate Logs
------------
+Rotate Logs:
+------------
 Some controllers will create endless error logs. This technique will force the logs to obey normal logic and not fill your system SD card to the point where it is unusable.
 
 + Edit `/etc/logrotate.d/rsyslog`
