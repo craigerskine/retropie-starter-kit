@@ -37,8 +37,8 @@ Games over Network Share:
 __If you can't save (states/battery/etc.) to share:__
 - `sudo chown -R pi /home/pi/RetroPie/roms`
 
-SuperGrafx Support:
--------------------
+Proper SuperGrafx Support:
+--------------------------
 + Upload `configs/supergrafx`
 
 Systems List:
