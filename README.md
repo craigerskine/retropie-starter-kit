@@ -47,7 +47,7 @@ Systems List:
 
 Sega CD CHD Support:
 --------------------
-+ Change the default emulator, upload `configs/segacd/emulators.cfg`
++ Upload `configs/segacd/emulators.cfg`
 
 Video Modes:
 ------------
@@ -65,13 +65,13 @@ Artwork:
 + Press Pair for 2 seconds on Controller
 + After paired, press Select + Left for 2 seconds (controller will reconnect)... you will have to do this step after each power cycle on the pi. Does anyone know a better way?
 
-JoyStick Test:
---------------
-+ `jstest /dev/input/js0`
-
 After Update:
 -------------
 + `RetroPie Setup > Configuration / tools > autostart > Boot to EmulationStation`
+
+JoyStick Test:
+--------------
++ `jstest /dev/input/js0`
 
 Rotate Logs:
 ------------
