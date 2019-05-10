@@ -12,7 +12,7 @@ SuperPi Case Power Button:
 Theme:
 -------
 + Download [art-book](https://github.com/anthonycaccese/es-theme-art-book) and upload to `//configs/all/emulationstation/themes/`
-+ If you want __TurboDuo__ and a better __SuperGrafx__ system logos, upload `configs/all/emulationstation/themes/art-book/tg-cd/_inc/system.svg` and `configs/all/emulationstation/themes/art-book/supergrafx/_inc/system.svg`
++ If you want a __TurboDuo__ system logo instead of the TGCD (which looks far too close to the TG16 logo), upload `configs/all/emulationstation/themes/art-book/tg-cd/_inc/system.svg`
 
 __Alternate Game List View__
 + Edit `art-book/theme.xml`, search for "gamelist", and make the following changes:
@@ -21,8 +21,8 @@ __Alternate Game List View__
       <!-- <alignment>center</alignment> -->
       <horizontalMargin>.005</horizontalMargin>
 
-Games over USB:
----------------
+Games on USB:
+-------------
 1. Turn __OFF__ USB rom service __before__ inserting USB drive containing roms:  
 `RetroPie Setup > Configuration / tools > usbromservice`
 2. Upload `configs/all/autostart.sh` (all rom folders should be in a `games` folder at the root of the drive)
@@ -30,14 +30,14 @@ Games over USB:
 4. Insert USB drive containing roms
 5. Power on
 
-Games over Network Share:
--------------------------
+Games on Network Share:
+-----------------------
 + Edit `configs/all/autostart.sh`, modify user, password, path, and upload
 
 __If you can't save (states/battery/etc.) to share:__
 - `sudo chown -R pi /home/pi/RetroPie/roms`
 
-Proper SuperGrafx Support:
+*Proper* SuperGrafx Support:
 --------------------------
 + Upload `configs/supergrafx`
 
