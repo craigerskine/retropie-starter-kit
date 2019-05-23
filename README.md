@@ -25,7 +25,7 @@ Games on USB:
 -------------
 1. Turn __OFF__ USB rom service __before__ inserting USB drive containing roms:  
 `RetroPie Setup > Configuration / tools > usbromservice`
-2. Upload `configs/all/autostart.sh` (all rom folders should be in a `games` folder at the root of the drive)
+2. Upload `configs/all/autostart.sh` (all rom folders should be at `/system/games` on the USB drive)
 3. Shutdown
 4. Insert USB drive containing roms
 5. Power on
@@ -35,7 +35,7 @@ Games on Network Share:
 + Edit `configs/all/autostart.sh`, modify user, password, path, and upload
 
 __If you can't save (states/battery/etc.) to share:__
-- `sudo chown -R pi /home/pi/RetroPie/roms`
+- `sudo chown -R pi /home/pi/RetroPie/roms/games`
 
 *Proper* SuperGrafx Support:
 --------------------------
@@ -55,7 +55,7 @@ Video Modes:
 
 Artwork:
 --------
-+ `cd /home/pi/RetroPie/roms/[system]` - replace `[system]` with game system folder name
++ `cd /home/pi/RetroPie/roms/games/[system]` - replace `[system]` with game system folder name
 + `/opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 -image_dir=media -image_path=media -use_nointro_name=false`
 
 8bitdo USB Adapter + SF30 Pro:
