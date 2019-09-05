@@ -49,10 +49,6 @@ Sega CD CHD Support:
 --------------------
 + Upload `configs/segacd/emulators.cfg`
 
-Video Modes:
-------------
-+ Upload `configs/all/videomodes.cfg`
-
 Artwork:
 --------
 + `cd /home/pi/RetroPie/roms/games/[system]` - replace `[system]` with game system folder name
