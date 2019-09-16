@@ -12,7 +12,6 @@ SuperPi Case Power Button:
 Theme:
 -------
 + Download [art-book](https://github.com/anthonycaccese/es-theme-art-book) and upload to `//configs/all/emulationstation/themes/`
-+ If you want a __TurboDuo__ system logo instead of the TGCD (which looks far too close to the TG16 logo), upload `configs/all/emulationstation/themes/art-book/tg-cd/_inc/system.svg`
 
 __Alternate Game List View__
 + Edit `art-book/theme.xml`, search for "gamelist", and make the following changes:
