@@ -58,7 +58,7 @@ Artwork:
 + Press Pair on Adapter
 + Press B + Start on Controller
 + Press Pair for 2 seconds on Controller
-+ After paired, press Select + Left for 2 seconds (controller will reconnect)... you will have to do this step after each power cycle on the pi. Does anyone know a better way?
++ After paired, press Select + Left for 2 seconds (controller will reconnect)... you will have to do this step after each power cycle on the pi. **Does anyone know a better way?**
 
 After Update:
 -------------
