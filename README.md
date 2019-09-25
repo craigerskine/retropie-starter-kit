@@ -55,10 +55,10 @@ Artwork:
 
 8bitdo USB Adapter + SF30 Pro:
 ------------------------------
-1. Press Pair on Adapter
-2. Press B + Start on Controller
-3. Press Pair for 2 seconds on Controller
-4. After paired, press Select + Left for 2 seconds (controller will reconnect)... you will have to do this step after each power cycle on the pi. **Does anyone know a better way?**
+1. Press `Pair` on Adapter
+2. Press `B + Start` on Controller
+3. Press `Pair` for 2 seconds on Controller
+4. After paired, press `Select + Left` for 2 seconds (controller will reconnect)... you will have to do this step after each power cycle on the pi. **Does anyone know a better way?**
 
 After Update:
 -------------
