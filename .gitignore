@@ -59,4 +59,10 @@ typings/
 
 # next.js build output
 .next
+
+# Extras
 .DS_Store
+node_modules
+dist/
+asset-manifest.json
+package-lock.json
