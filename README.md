@@ -11,14 +11,7 @@ SuperPi Case Power Button:
 
 Theme:
 -------
-+ Download [art-book](https://github.com/anthonycaccese/es-theme-art-book) and upload to `//configs/all/emulationstation/themes/`
-
-__Alternate Game List View__
-+ Edit `art-book/theme.xml`, search for "gamelist", and make the following changes:
-
-      <!-- <forceUppercase>1</forceUppercase> -->
-      <!-- <alignment>center</alignment> -->
-      <horizontalMargin>.005</horizontalMargin>
++ Download [art-book](https://github.com/craigerskine/es-theme-art-book) and upload to `//configs/all/emulationstation/themes/`
 
 Games on USB:
 -------------
