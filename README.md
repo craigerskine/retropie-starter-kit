@@ -41,6 +41,11 @@ Sega CD CHD Support:
 --------------------
 + Upload `configs/segacd/emulators.cfg`
 
+PSX Controller Not Working:
+---------------------------
+
++ Change the controller type from `standard` to `analog`. This can only be done in the RetroArch core for PSX (hotkey + X).
+
 Artwork:
 --------
 + `cd /home/pi/RetroPie/roms/games/[system]` - replace `[system]` with game system folder name
