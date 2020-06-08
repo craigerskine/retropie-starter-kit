@@ -5,9 +5,10 @@ This repo would only be useful for my own personal setup. I keep my roms on a US
 
 Some of these "steps" are just references in case I need to re-download artwork, get button ids for a new controller, etc.
 
-SuperPi Case Power Button:
+ Power Button:
 --------------------------
-+ [Script](https://github.com/RetroFlag/retroflag-picase)
++ [SuperPi Case Script](https://github.com/RetroFlag/retroflag-picase)
++ ArgonOne Case Script (coming soon)
 
 Theme:
 -------
@@ -50,13 +51,6 @@ Artwork:
 --------
 + `cd /home/pi/RetroPie/roms/games/[system]` - replace `[system]` with game system folder name
 + `/opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 -image_dir=media -image_path=media -use_nointro_name=false`
-
-8bitdo USB Adapter + SF30 Pro:
-------------------------------
-1. Press `Pair` on Adapter
-2. Press `B + Start` on Controller
-3. Press `Pair` for 2 seconds on Controller
-4. After paired, press `Select + Left` for 2 seconds (controller will reconnect)... you will have to do this step after each power cycle on the pi. **Does anyone know a better way?**
 
 After Update:
 -------------
