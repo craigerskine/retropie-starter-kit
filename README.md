@@ -1,7 +1,7 @@
 RetroPie Starter Kit
 ====================
 
-This repo would only be useful for my own personal setup. I keep my roms on a USB Drive (optional NAS config as well), I renamed all my rom folders to a `company-system` format so they all line up nicely, and I re-organized the `es_systems.cfg` so systems in the UI appear in a more logical `console > portable > year` order rather than default alphabetical.
+This repo may only be useful for my own personal setup. I keep my roms on a USB Drive (optional NAS config as well), I renamed all my rom folders to a `company-system` format so they all line up nicely, and I re-organized the `es_systems.cfg` so systems in the UI appear in a more logical `console > portable > year` order rather than default alphabetical.
 
 Some of these "steps" are just references in case I need to re-download artwork, get button ids for a new controller, etc.
 
