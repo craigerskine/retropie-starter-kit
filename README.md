@@ -17,7 +17,7 @@ Games on USB:
 -------------
 1. Turn __OFF__ USB rom service __before__ inserting USB drive containing roms:  
 `RetroPie Setup > Configuration / tools > usbromservice`
-2. Upload `configs/all/autostart.sh` (all rom folders should be at `/system/games` on the USB drive)
+2. Upload `configs/all/autostart.sh` (all rom folders should be at `/System/games` on the USB drive)
 3. Shutdown
 4. Insert USB drive containing roms
 5. Power on
