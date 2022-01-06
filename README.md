@@ -66,24 +66,26 @@ Some controllers will create endless error logs. This technique will force the l
 
 + Edit `/etc/logrotate.d/rsyslog`
 
-      monthly
-      size 10m
-      rotate 12
-      missingok
-      notifempty
-      compress
-      delaycompress
+```
+monthly
+size 10m
+rotate 12
+missingok
+notifempty
+compress
+delaycompress
 
-      /var/log/syslog {
-        postrotate
-          invoke-rc.d rsyslog rotate > /dev/null
-        endscript
-      }
+/var/log/syslog {
+  postrotate
+    invoke-rc.d rsyslog rotate > /dev/null
+  endscript
+}
 
-      /var/log/mail.info /var/log/mail.warn /var/log/mail.err
-      /var/log/*.log /var/log/debug /var/log/messages {
-        sharedscripts
-        postrotate
-          invoke-rc.d rsyslog rotate > /dev/null
-        endscript
-      }
+/var/log/mail.info /var/log/mail.warn /var/log/mail.err
+/var/log/*.log /var/log/debug /var/log/messages {
+  sharedscripts
+  postrotate
+    invoke-rc.d rsyslog rotate > /dev/null
+  endscript
+}
+```
