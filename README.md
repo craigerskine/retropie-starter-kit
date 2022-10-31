@@ -7,9 +7,9 @@ Some of these "steps" are just references in case I need to re-download artwork,
 
  Power Button:
 --------------------------
-+ [SuperPi Case Script](https://github.com/RetroFlag/retroflag-picase)
-+ [Argon ONE](https://argon40.com/) Case Script `curl https://download.argon40.com/argon1.sh | bash`
-  + [GitHub](https://github.com/Argon40Tech/Argon40case)
++ [SuperPi](https://github.com/RetroFlag/retroflag-picase) Case Script
++ [Argon ONE](https://github.com/Argon40Tech/Argon40case) Case Script  
+`curl https://download.argon40.com/argon1.sh | bash`
 
 Theme:
 -------
@@ -28,8 +28,8 @@ Games on Network Share:
 -----------------------
 + Edit `configs/all/autostart.sh`, modify user, password, path, and upload
 
-__If you can't save (states/battery/etc.) to share:__
-- `sudo chown -R pi /home/pi/RetroPie/roms/games`
+__If you can't save (states/battery/etc.) to the mounted share:__
++ `sudo chown -R pi /home/pi/RetroPie/roms/games`
 
 *Proper* SuperGrafx Support:
 --------------------------
