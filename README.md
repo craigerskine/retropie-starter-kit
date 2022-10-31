@@ -8,7 +8,8 @@ Some of these "steps" are just references in case I need to re-download artwork,
  Power Button:
 --------------------------
 + [SuperPi Case Script](https://github.com/RetroFlag/retroflag-picase)
-+ [Argon ONE](https://www.argon40.com/argon-one-raspberry-pi-4-case.html) Case Script `curl https://download.argon40.com/argonone-setup-libreelec.sh | bash`
++ [Argon ONE](https://argon40.com/) Case Script `curl https://download.argon40.com/argon1.sh | bash`
+  + [GitHub](https://github.com/Argon40Tech/Argon40case)
 
 Theme:
 -------
