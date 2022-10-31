@@ -11,10 +11,6 @@ Some of these "steps" are just references in case I need to re-download artwork,
 + [Argon ONE](https://github.com/Argon40Tech/Argon40case) Case Script  
 `curl https://download.argon40.com/argon1.sh | bash`
 
-Theme:
--------
-+ Download [art-book](https://github.com/craigerskine/es-theme-art-book) and upload to `//configs/all/emulationstation/themes/`
-
 Games on USB:
 -------------
 1. Turn __OFF__ USB rom service __before__ inserting USB drive containing roms:  
