@@ -47,7 +47,7 @@ PSX Controller Not Working:
 Artwork:
 --------
 + `cd /home/pi/RetroPie/roms/games/[system]` - replace `[system]` with game system folder name
-+ `/opt/retropie/supplementary/scraper/scraper -console_src=ss -max_height=540 -max_width=505 -image_dir=media -image_path=media -use_nointro_name=false`
++ `/opt/retropie/supplementary/scraper/scraper -console_src=ss -max_width=505 -max_height=540 -image_dir=media -image_path=media`
 
 After Update:
 -------------
