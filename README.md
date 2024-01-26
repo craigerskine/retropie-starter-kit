@@ -6,7 +6,7 @@ This repo may only be useful for my own personal setup. I keep my roms on a USB 
 Some of these "steps" are just references in case I need to re-download artwork, get button ids for a new controller, etc.
 
  Power Button:
---------------------------
+--------------
 + [SuperPi](https://github.com/RetroFlag/retroflag-picase) Case Script
 + [Argon ONE](https://github.com/Argon40Tech/Argon40case) Case Script  
 `curl https://download.argon40.com/argon1.sh | bash`
@@ -27,6 +27,10 @@ Games on Network Share:
 __If you can't save (states/battery/etc.) to the mounted share:__
 + `sudo chown -R pi /home/pi/RetroPie/roms/games`
 
+[art-book-next-retropie](https://github.com/anthonycaccese/art-book-next-retropie)
+----------------------
++ Replace config files for better UX
+
 *Proper* SuperGrafx Support:
 --------------------------
 + Upload `configs/supergrafx`
@@ -41,8 +45,7 @@ Sega CD CHD Support:
 
 PSX Controller Not Working:
 ---------------------------
-
-+ Change the controller type from `standard` to `analog`. This can only be done in the RetroArch core for PSX (hotkey + X).
++ Change the controller type from `standard` to `analog` (this can only be done in the RetroArch core for PSX (hotkey + X)
 
 Artwork:
 --------
@@ -59,7 +62,7 @@ JoyStick Test:
 
 Rotate Logs:
 ------------
-Some controllers will create endless error logs. This technique will force the logs to obey normal logic and not fill your system SD card to the point where it is unusable.
+Some controllers will create endless error logs (this technique will force the logs to obey normal logic and not fill your system SD card to the point where it is unusable)
 
 + Edit `/etc/logrotate.d/rsyslog`
 
