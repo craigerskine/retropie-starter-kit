@@ -58,9 +58,6 @@ Replace `{system}` with game system folder name
 
 ```bash
 cd /home/pi/RetroPie/roms/games/{system}
-```
-
-```bash
 /opt/retropie/supplementary/scraper/scraper -append -console_src=gdb,ss -max_width=505 -max_height=540 -image_dir=media -image_path=media
 ```
 
