@@ -1,3 +1,5 @@
+![qRP](https://github.com/user-attachments/assets/a8b6c433-b10e-4fe3-848e-e3acf7b195c4)
+
 # RetroPie Starter Kit
 
 This repo may only be useful for my own personal setup. I keep my roms on a USB Drive (optional NAS config as well), I renamed all my rom folders to a `company-system` format so they all line up nicely, my PSX collection is entirely set up as `.m3u` playlists to prevent duplicate listings, and I re-organized the `es_systems.cfg` so systems in the UI appear in a more logical `console > portable > year` order rather than nonsensical alphabetical.
